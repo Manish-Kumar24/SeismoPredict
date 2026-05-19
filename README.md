@@ -47,3 +47,14 @@ Earthquake-Predictor/
 └── templates/
     ├── index.html         # Main dashboard & prediction UI
     └── error.html         # Error handling template
+
+```
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone & Enter Directory
+```bash
+git clone https://github.com/yourusername/SeismoPredict.git
+cd SeismoPredict
