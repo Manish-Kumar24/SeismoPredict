@@ -36,12 +36,14 @@
 ---
 
 ## 📁 Project Structure
+
+```text
 Earthquake-Predictor/
-├── app.py # Flask web server & routing
-├── detector.py # Model training pipeline (run first!)
-├── model.pkl # Serialized ML model (generated)
-├── requirements.txt # Python dependencies
-├── dataset.csv # Fallback/local dataset (optional)
+├── app.py                 # Flask web server & routing
+├── detector.py            # Model training pipeline (run first!)
+├── model.pkl              # Serialized ML model (generated)
+├── requirements.txt       # Python dependencies
+├── dataset.csv            # Fallback/local dataset (optional)
 └── templates/
-├── index.html # Main dashboard & prediction UI
-└── error.html # Error handling template
+    ├── index.html         # Main dashboard & prediction UI
+    └── error.html         # Error handling template
