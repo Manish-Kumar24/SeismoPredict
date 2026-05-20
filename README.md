@@ -78,3 +78,17 @@ python detector.py
 python app.py
 ```
 🌐 Open http://127.0.0.1:5000 in your browser.
+
+---
+
+## ## 🌐 How to Use
+
+### 🔮 Predict Seismic Risk
+
+1. Enter coordinates & depth  
+   *(Example: Tokyo → Lat: 35.68, Lon: 139.69, Depth: 35)*
+
+2. Click **Predict Magnitude & Risk**
+
+3. View the categorized risk level  
+   *(Minor → Severe)*
