@@ -161,3 +161,12 @@ For real-world hazard assessment, consult:
 - 🔄 Probabilistic output: `P(M > 6 | location)` using calibrated classifiers
 
 - 📐 Add real fault-distance features using `GPlates` / `USGS` shapefiles
+
+--- 
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+USGS earthquake data is in the **public domain**.  
+Model outputs are intended for **educational and research purposes only**.
