@@ -109,3 +109,27 @@ curl http://127.0.0.1:5000/api/live
 | Santiago, Chile      | -33.45 | -70.67 | 25     | 🔴 High |
 | Sydney, Australia    | -33.86 | 151.21 | 20     | 🟢 Low |
 | Reykjavik, Iceland   | 64.14 | -21.94 | 5      | 🟡 Moderate |
+
+---
+
+## 📊 Model & Data Pipeline
+
+- **Data Source:** `USGS 2.5_year.geojson` *(~10k–15k earthquake events)*
+
+- **Features:**
+  - `abs_lat`
+  - `log1p(depth)`
+  - `lat_lon_interaction`
+  - `tectonic_zone`
+
+- **Balancing:**  
+  Oversamples `M ≥ 6.0` events **3×** to reduce regression-to-mean bias.
+
+- **Algorithm:**  
+  `HistGradientBoostingRegressor` with:
+  - Early stopping
+  - `300` estimators
+
+- **Evaluation Metrics:**
+  - **MAE:** `~0.45`
+  - **R² Score:** `~0.68` on held-out test set
