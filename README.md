@@ -58,3 +58,23 @@ Earthquake-Predictor/
 ```bash
 git clone https://github.com/yourusername/SeismoPredict.git
 cd SeismoPredict
+```
+
+### 2. Create Virtual Environment & Install Dependencies
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. Train the Model (Required Before First Run)
+```bash
+python detector.py
+```
+✅ Fetches ~10,000+ earthquakes from USGS, engineers features, balances magnitudes, and saves model.pkl.
+
+### 4. Start the Web Server
+```bash
+python app.py
+```
+🌐 Open http://127.0.0.1:5000 in your browser.
