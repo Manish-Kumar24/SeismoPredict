@@ -145,3 +145,19 @@ This project estimates probabilistic historical patterns based on coordinates an
 For real-world hazard assessment, consult:
 - **Probabilistic Seismic Hazard Analysis (PSHA)** frameworks
 - Official geological and seismic monitoring agencies
+
+---
+
+## 🔮 Future Roadmap
+
+- 🗺️ Interactive `Leaflet.js` map with click-to-predict & heatmap overlay
+
+- 📊 `SQLite` / `PostgreSQL` logging for prediction history & trend analysis
+
+- 📧 Email/SMS alert system for high-risk predictions
+
+- 🐳 `Docker Compose` setup + `GitHub Actions` CI/CD pipeline
+
+- 🔄 Probabilistic output: `P(M > 6 | location)` using calibrated classifiers
+
+- 📐 Add real fault-distance features using `GPlates` / `USGS` shapefiles
