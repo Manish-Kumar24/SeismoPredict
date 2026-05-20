@@ -81,7 +81,7 @@ python app.py
 
 ---
 
-## ## 🌐 How to Use
+## 🌐 How to Use
 
 ### 🔮 Predict Seismic Risk
 
@@ -92,3 +92,20 @@ python app.py
 
 3. View the categorized risk level  
    *(Minor → Severe)*
+
+## 📡 Live Data API
+
+Access the real-time earthquake JSON feed:
+
+```bash
+curl http://127.0.0.1:5000/api/live
+```
+
+## 🧪 Quick Test Cases
+
+| Location              | Lat   | Lon    | Depth | Expected Risk |
+|----------------------|-------|--------|--------|----------------|
+| Tokyo, Japan         | 35.68 | 139.69 | 35     | 🔴 High |
+| Santiago, Chile      | -33.45 | -70.67 | 25     | 🔴 High |
+| Sydney, Australia    | -33.86 | 151.21 | 20     | 🟢 Low |
+| Reykjavik, Iceland   | 64.14 | -21.94 | 5      | 🟡 Moderate |
