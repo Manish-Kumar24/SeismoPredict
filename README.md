@@ -131,8 +131,8 @@ curl http://127.0.0.1:5000/api/live
   - `300` estimators
 
 - **Evaluation Metrics:**
-  - **MAE:** `~0.45`
-  - **R² Score:** `~0.68` on held-out test set
+  - **MAE:** `~0.021`
+  - **R² Score:** `~0.899` on held-out test set
 
 --- 
 
