@@ -133,3 +133,15 @@ curl http://127.0.0.1:5000/api/live
 - **Evaluation Metrics:**
   - **MAE:** `~0.45`
   - **R² Score:** `~0.68` on held-out test set
+
+--- 
+
+## ⚠️ Scientific Disclaimer
+
+Earthquakes are governed by complex, non-linear tectonic stress accumulation. No current scientific method can reliably predict the exact time, location, or magnitude of future earthquakes.
+
+This project estimates probabilistic historical patterns based on coordinates and depth. It is designed for **educational, demonstration, and research prototyping purposes only**.
+
+For real-world hazard assessment, consult:
+- **Probabilistic Seismic Hazard Analysis (PSHA)** frameworks
+- Official geological and seismic monitoring agencies
