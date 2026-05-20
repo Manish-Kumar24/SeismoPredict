@@ -194,3 +194,19 @@ git push origin feature/amazing-feature
 ```
 
 5. Open a Pull Request
+
+---
+
+## 📬 Contact & Credits
+
+- **Data:** USGS Earthquake Hazards Program
+
+- **ML Framework:** Scikit-learn & Pandas
+
+- **Web Framework:** Flask & Bootstrap 5
+
+- **Built by:** Manish Kumar 
+
+⭐ If you found this project helpful, consider starring the repository!
+
+---
